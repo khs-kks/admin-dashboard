@@ -70,7 +70,45 @@ body {
     gap: 15px 15px;
     padding-top: 4rem;
 }
-img {
-    /* justify-self: end; */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 15px 30px;
 }
-/* f056E */
+
+.upper {
+    display: grid;
+    grid-template-columns: 40px 5fr 4fr 1fr 2fr;
+    gap: 15px;
+    align-content: center;
+}
+
+/* .upper > img {
+    justify-self: end;
+} */
+.magnify {
+    justify-self: end;
+    align-self: center;
+}
+
+input {
+    background-color: #d1d5db;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+}
+
+.popeye {
+    border-radius: 50%;
+    border: 1px solid black;
+    justify-self: center;
+}
+
+.account-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* justify-self: center; */
+    align-self: center;
+}
