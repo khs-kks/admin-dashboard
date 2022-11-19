@@ -112,3 +112,55 @@ input {
     /* justify-self: center; */
     align-self: center;
 }
+
+.lower {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 45%;
+}
+
+.lower-left {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 40px;
+    grid-template-areas: "popeye greet"
+                         "popeye account";
+}
+
+.popeye-lower {
+    grid-area: popeye;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* justify-self: center; */
+    align-self: center;
+}
+
+.greet {
+    grid-area: greet;
+    font-weight: bold;
+    font-size: 0.9rem;
+    align-self: center;
+}
+
+.account-2 {
+    grid-area: account;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.lower-right {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 30px;
+    align-items: center;
+
+}
+
+button {
+    background-color: #0ea5e9;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    /* margin: 10px */
+}
