@@ -115,8 +115,10 @@ input {
 
 .lower {
     display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 45%;
+    grid-template-columns: 325px 1fr;
+    padding-right: 60px;
+    justify-items: end;
+    /* gap: 45%; */
 }
 
 .lower-left {
@@ -125,6 +127,7 @@ input {
     grid-template-rows: 1fr 40px;
     grid-template-areas: "popeye greet"
                          "popeye account";
+    column-gap: 15px;
 }
 
 .popeye-lower {
@@ -162,5 +165,6 @@ button {
     border-radius: 30px;
     border: none;
     padding: 10px 15px;
+    font-weight: bold;
     /* margin: 10px */
 }
