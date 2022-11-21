@@ -311,5 +311,25 @@ button {
     border-radius: 10px;
     background-color: #fefce8;
     box-shadow: 10px 10px 8px 0px rgba(209,209,209,1);
+    display: grid;
+    padding: 40px;
 
+}
+
+.announcements-contents {
+    grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr;
+    gap: 5px;
+}
+
+.announcements-contents > .heading {
+    font-weight: bold;
+    align-self: center;
+}
+
+hr {
+    align-self: center;
+}
+
+.a-content {
+    font-size: 0.8rem;
 }
