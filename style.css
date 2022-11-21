@@ -312,13 +312,14 @@ button {
     background-color: #fefce8;
     box-shadow: 10px 10px 8px 0px rgba(209,209,209,1);
     display: grid;
-    padding: 40px;
+    
 
 }
 
 .announcements-contents {
     grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr;
     gap: 5px;
+    padding: 40px;
 }
 
 .announcements-contents > .heading {
@@ -337,7 +338,8 @@ hr {
 
 .trending-content {
     grid-template-columns: 1.5fr 3fr;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* grid-template-rows: repeat(4, 1fr); */
 }
 
