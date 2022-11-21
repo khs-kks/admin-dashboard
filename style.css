@@ -332,4 +332,38 @@ hr {
 
 .a-content {
     font-size: 0.8rem;
+    color: #4b5563;
+}
+
+.trending-content {
+    grid-template-columns: 1.5fr 3fr;
+    
+    /* grid-template-rows: repeat(4, 1fr); */
+}
+
+.left-trending-content {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.right-trending-content {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.user-trending {
+    align-self: end;
+    font-weight: bold;
+}
+
+.app-trending {
+    align-self: start;
+    color: #4b5563;
+}
+
+.user-wrapper {
+    display: grid;
+
 }
