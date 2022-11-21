@@ -203,6 +203,13 @@ button {
 /* ######################## */
 /* ######################## */
 
+/* ######################## */
+/* ######################## */
+/* START OF MAIN-LEFT */
+/* ######################## */
+/* ######################## */
+
+
 .main-content {
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -268,4 +275,41 @@ button {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3ch;
+}
+
+/* ######################## */
+/* ######################## */
+/* END OF MAIN-LEFT */
+/* ######################## */
+/* ######################## */
+
+/* ######################## */
+/* ######################## */
+/* START OF MAIN-RIGHT */
+/* ######################## */
+/* ######################## */
+
+.main-right {
+    display: grid;
+    grid-template-rows: 65px 1fr 65px 1fr;
+    gap: 17px;
+}
+
+.announcements {
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-self: end;
+}
+
+.trending {
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-self: end;
+}
+
+.announcements-contents, .trending-content {
+    border-radius: 10px;
+    background-color: #fefce8;
+    box-shadow: 10px 10px 8px 0px rgba(209,209,209,1);
+
 }
